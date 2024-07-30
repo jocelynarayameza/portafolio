@@ -136,6 +136,12 @@ a{
 margin-bottom: 20px;
 }
 
+.contenedor2{
+    display:flex;
+}
+
+
+
 form{
     width: 40%;
     margin: auto;
@@ -150,13 +156,18 @@ footer{
 
 
 @media screen and (max-width: 992px){
-    .containers{
+    .containers, .contenedor2{
         display: block;
         text-align: center;
     }
 
     .imgEx{
         padding-top: 5px;
+
+    }
+
+    .img {
+        margin-bottom: 2em;
     }
 
     .primeraPag{
@@ -174,8 +185,9 @@ footer{
         display: flex;
        justify-content: center;
     }
+
+    .img {
+        margin-left: 3em;
+    }
 }
 
-.contenedor2{
-    display:flex;
-}
