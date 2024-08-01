@@ -188,6 +188,7 @@ footer{
 
     .img {
         margin-left: 3em;
+        max-width: 80%;
     }
 
     .card{
